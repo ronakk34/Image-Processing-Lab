@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 #img path
 
-img1 = cv2.imread("C://Image Processing Lab//NonDemented.jpg")
-img2 = cv2.imread("C://Image Processing Lab//ModerateDemented.jpg")
+img1 = cv2.imread("/content/NonDemented.jpg")
+img2 = cv2.imread("/content/ModerateDemented.jpg")
 
 # Resize second image to match first
 img2_resized = cv2.resize(img2, (img1.shape[1], img1.shape[0]))
