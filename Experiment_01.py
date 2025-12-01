@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 #img path
-img = cv2.imread("dogesh.jpg")
+img = cv2.imread("/content/dogesh.jpg")
 
 #check image load or not
 if img is None:
@@ -35,5 +35,3 @@ else:
 
     #output
     cv2.imwrite("This is Gray image",gray)
-
-    
